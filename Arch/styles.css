@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.links {
+    display: flex;
+    gap:20px;
+}
+
+.links > h4 {
+    margin-top: 8px;
+}
+
+h1 {
+    font-size: 80px;
+    width: 80vw;
+    margin-left: 36px;
+    margin-top: 60px;
+    
+}
+
+.image {
+    background: url("imgs/one.jpg");
+    width: 100vw;
+    height: 50vh;
+    
+    margin-top: 60px;
+    
+    background-position: center;
+}
